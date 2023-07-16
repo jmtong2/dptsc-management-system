@@ -34,7 +34,7 @@
 
                                 <div class="col-md-9">
                                     <div class="form-group">
-                                        <label for="attendance_time">Attendance Time *</label>
+                                        <label for="attendance_time">Attendance Time In*</label>
                                         <input type="datetime-local" data-date-format="Y-m-d H:i:s" class="form-control" value="{{old('attendance_time')}}" id="attendance_time" name="attendance_time" />
                                     </div>
                                     @if($errors->has('attendance_time'))

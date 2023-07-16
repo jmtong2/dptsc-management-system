@@ -25,8 +25,8 @@
                             <th>ID</th>
                             <th>Driver Name</th>
                             <th>Vehicle</th>
-                            <th>Dispatch Time</th>
-                            <th>Terminal Exit Time</th>
+                            <th>Departure Time</th>
+                            <th>Terminal Arrival Time</th>
                             <th>Created At</th>
                             <th>Updated At</th>
                             <th>Actions</th>

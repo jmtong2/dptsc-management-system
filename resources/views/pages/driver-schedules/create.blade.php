@@ -34,7 +34,7 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="start_time">Availability Week Start Date *</label>
+                                        <label for="start_time">Start Time *</label>
                                         <input type="datetime-local" data-date-format="Y-m-d" class="form-control" value="{{old('start_time')}}" id="start_time" name="start_time" />
                                     </div>
                                     @if($errors->has('start_time'))

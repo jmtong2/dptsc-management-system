@@ -24,7 +24,7 @@
                             </th>
                             <th>ID</th>
                             <th>Driver Name</th>
-                            <th>Attendance Time</th>
+                            <th>Attendance Time In</th>
                             <th>Created At</th>
                             <th>Updated At</th>
                             <th>Actions</th>
