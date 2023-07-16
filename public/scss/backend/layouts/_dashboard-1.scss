@@ -1,0 +1,129 @@
+.iq-icon-box-2 {
+    height: 60px;
+    width: 60px;
+    line-height: 55px;
+	text-align: center;
+	margin-right: 20px;
+	font-size: 26px;
+	@if $enable-rounded == true {
+		@include radius-mixin($border-radius);
+	}
+}
+.card-total-sale {
+	img {
+		max-height: 34px;
+	}
+}
+.layout-chart-1 {
+	position: relative;
+
+	&:before {
+		content: "";
+		height: 20px;
+		width: 20px;
+		border: 5px solid $secondary;
+		background: $white;
+		@if $enable-rounded == true {
+			@include radius-mixin($border-radius-circle);
+		}
+		position: absolute;
+		top: 20px;
+		right: 0px;
+		z-index: 9;
+	}
+}
+.layout-chart-2 {
+	position: relative;
+
+	&:before {
+		content: "";
+		height: 20px;
+		width: 20px;
+		border: 5px solid $primary;
+		background: $white;
+		@if $enable-rounded == true {
+			@include radius-mixin($border-radius-circle);
+		}
+		position: absolute;
+		top: 20px;
+		right: 0px;
+		z-index: 9;
+	}
+}
+.card-header {
+	.view-btn {
+		&.light-gray {
+			background: $light-gray;
+		}
+	}
+}
+.progress {
+	&.progress-round {
+		&.conversation-bar {
+			width: 68px;
+			height: 68px;
+			line-height: 68px;
+		}
+	}
+}
+#layout1-chart-5 {
+	.apexcharts-legend {
+		margin-top: -10px!important;
+		inset: auto 0 0!important;
+	}
+}
+.top-product {
+	.card-body {
+		padding: 20px !important;
+	}
+}
+.card-item-right {
+	img {
+		padding: 14px;
+	}	
+	.style-text {
+		margin-left: 20px;
+	}
+}
+.card {
+	.card-header {		
+		&.order-detail {
+			padding-top: 30px;
+		}
+	}
+}
+i {
+    vertical-align: middle;
+}
+.top-product {
+	&.slick-slider {
+		margin: 0 -10px;
+
+		.slick-slide {
+			padding: 0 10px;
+		}
+	}
+}
+@media(max-width: 533px) {
+	.progress-order-right {
+		margin-left: 10px !important;
+	}
+	.progress-value {
+		padding-right: 10px !important;
+	}
+}
+@media(max-width: 470px) {
+	.progress-order-right {
+		margin-left: 0px !important;
+		margin-top: 20px;
+	}
+	.progress-value {
+		padding-right: 20px !important;
+		border: 0 !important;
+	}
+	.card-item-right {
+		.style-text {
+			margin-left: 10px;
+		}
+	}
+}
