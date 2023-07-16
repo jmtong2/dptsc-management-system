@@ -7,8 +7,8 @@
                         <h4 class="mb-3">Seat Reservations List</h4>
                         {{--                        <p class="mb-0">The product list effectively dictates product presentation and provides space<br> to list your products and offering in the most appealing way.</p>--}}
                     </div>
-                    <a href="{{route('seat-reservations.create')}}" class="btn btn-primary add-list"><i
-                            class="las la-plus mr-3"></i>Add Seat Reservation</a>
+                    <!-- <a href="{{route('seat-reservations.create')}}" class="btn btn-primary add-list"><i
+                            class="las la-plus mr-3"></i>Add Seat Reservation</a> -->
                 </div>
             </div>
             <div class="col-lg-12">
